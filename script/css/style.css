@@ -403,3 +403,37 @@ button {
     padding: 0px;
 
 }
+
+.list-group-item{
+	border: none;
+    color: #193048;
+    text-decoration: none;
+}
+
+
+.list-group-item:hover{
+    color: #f8484f;
+    background-color: #fff7f7;
+    text-decoration: none;
+}
+
+.no-shadow{
+	box-shadow: none;
+}
+
+.list-group > .active {
+	background-color: #fff7f7;
+	color: #f8484f;
+    border-left: 4px solid #f8484f;
+}
+
+.light-footer{
+	background-color: white!important;
+	color: #193048!important;
+}
+
+
+.light-footer:hover{
+	background-color: #193048!important;
+	color: #fff!important;
+}
